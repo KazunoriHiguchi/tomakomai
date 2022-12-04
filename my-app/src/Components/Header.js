@@ -20,11 +20,13 @@ export default function Header() {
   return (
     <>
       <header className="mt-4 h-16 flex items-center">
-        <img src={Logo} alt="Logo" className="w-16 mt-4" />
-        <h1 className="hidden sm:block">TOMAKOMAI CITY HACKATHON</h1>
-        <h1 className="sm:hidden">
-          TOMAKOMAI CITY <br></br>HACKATHON
-        </h1>
+        <a href="https://tch2022.mikan-foundation.org/" className="flex items-center">
+          <img src={Logo} alt="Logo" className="w-16 mt-4" />
+          <h1 className="hidden sm:block">TOMAKOMAI CITY HACKATHON</h1>
+          <h1 className="sm:hidden">
+            TOMAKOMAI CITY <br></br>HACKATHON
+          </h1>
+        </a>
         <nav className="ml-auto flex gap-4">
           <div className="inline-block relative hidden sm:block ">
             <IconContext.Provider value={{ className: "search-icon" }}>

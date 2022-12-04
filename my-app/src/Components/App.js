@@ -3,11 +3,11 @@ import "../CSS/App.css";
 import Header from "./Header";
 import LangList from "./LangList";
 import SupportList from "./SupportList";
-import Location from "./Location";
 import Phone from "./Phone";
-import Information from "./Information";
+import News from "./News";
 import Bot from "./Bot";
 import Footer from "./Footer";
+import MapComponent from "./MapComponent";
 
 function App() {
   return (
@@ -16,14 +16,12 @@ function App() {
       <main className="">
         <LangList />
         <SupportList />
-        <div className="grid grid-cols-2">
-          <Location />
+        <div className="grid grid-cols-1 sm:grid-cols-2 bg-gray-300">
+          <MapComponent />
           <Phone />
         </div>
-        <div className="grid grid-cols-2 gap-4">
-          <Information />
-          <Bot />
-        </div>
+        <News />
+        <Bot />
       </main>
       <Footer />
     </>
