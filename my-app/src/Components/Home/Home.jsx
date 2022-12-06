@@ -1,10 +1,10 @@
 import React from 'react'
 import Bot from './Home-components/Bot'
-import LangList from './Home-components/LangList'
+import LangList from '../Global_components/LangList'
 import MapComponent from './Home-components/MapComponent'
-import News from './Home-components/News'
+import News from './Home-components/News/News'
 import Phone from './Home-components/Phone'
-import SupportList from './Home-components/SupportList'
+import SupportList from './Home-components/Support/SupportList'
 
 const Home = () => {
   return (

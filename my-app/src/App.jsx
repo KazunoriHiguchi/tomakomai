@@ -6,14 +6,14 @@ import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import Home from "./Components/Home/Home";
 /* -----------------Information---------------------- */
-import Medical from "./Components/Pages/Medical";
-import Raising from "./Components/Pages/Raising";
-import Education from "./Components/Pages/Education";
-import Emergency from "./Components/Pages/Emergency";
-import Job from "./Components/Pages/Job";
-import Transportation from "./Components/Pages/Transportation";
-import Tax from "./Components/Pages/Tax";
-import DailyLife from "./Components/Pages/DailyLife";
+import Medical from "./Components/Pages/01_Medical/Medical";
+import Raising from "./Components/Pages/02_Raising/Raising";
+import Education from "./Components/Pages/03_Education/Education";
+import Emergency from "./Components/Pages/04_Emergency/Emergency";
+import Job from "./Components/Pages/05_Job/Job";
+import Transportation from "./Components/Pages/06_Transportation/Transportation";
+import Tax from "./Components/Pages/07_Tax/Tax";
+import DailyLife from "./Components/Pages/08_DailyLife/DailyLife";
 
 
 
