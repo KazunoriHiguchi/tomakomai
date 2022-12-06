@@ -1,8 +1,8 @@
 import React from 'react'
-import Box from '../../Global_components/Box_components'
+import Top_info from '../../Global_components/Top_info'
 import Hero from '../../Global_components/Hero_components'
-import LangList from '../../Global_components/LangList'
 import Title from '../../Global_components/Title_components'
+import Box from '../../Global_components/Box_components'
 
 // ---------------Images-------------------
 import Hospital from "../../../images/hospital.jpg";
@@ -12,7 +12,7 @@ import Loading from "../../../images/Loading.png";
 const Medical = () => {
   return (
     <>
-      <LangList />
+      <Top_info />
       <Hero type={"Medical"} span={"CARE"}/>
       <Title type={"Hospital & Clinic"}/>
         <div className='flex flex-wrap justify-center items-center'>
