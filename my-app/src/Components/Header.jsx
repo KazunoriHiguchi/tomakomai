@@ -28,7 +28,7 @@ export default function Header() {
           </h1>
         </a>
         <nav className="ml-auto flex gap-4">
-          <div className="inline-block relative hidden sm:block ">
+          <div className=" relative hidden sm:block ">
             <IconContext.Provider value={{ className: "search-icon" }}>
               <CiSearch />
             </IconContext.Provider>
@@ -38,7 +38,7 @@ export default function Header() {
               className="border px-5"
             ></input>
           </div>
-          <ul className="hidden sm:block sm:flex items-center gap-4 mr-4">
+          <ul className="hidden sm:flex  items-center gap-4 mr-4">
             <IconContext.Provider
               value={{ size: "1.8rem", className: "youtube" }}
             >
