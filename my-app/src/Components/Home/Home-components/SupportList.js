@@ -1,12 +1,12 @@
 import React from "react";
-import Medical from "../images/hospital.jpg";
-import Raising from "../images/raising.jpg";
-import Education from "../images/education.jpg";
-import Emergency from "../images/emergency.jpg";
-import Job from "../images/job.jpg";
-import Transportation from "../images/transportation.jpg";
-import Tax from "../images/tax.jpg";
-import DailyLife from "../images/daily-life.jpg";
+import Medical from "../../../images/hospital.jpg";
+import Raising from "../../../images/raising.jpg";
+import Education from "../../../images/education.jpg";
+import Emergency from "../../../images/emergency.jpg";
+import Job from "../../../images/job.jpg";
+import Transportation from "../../../images/transportation.jpg";
+import Tax from "../../../images/tax.jpg";
+import DailyLife from "../../../images/daily-life.jpg";
 import SupportCell from "./SupportCell";
 
 export default function SupportList() {

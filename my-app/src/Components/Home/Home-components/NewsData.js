@@ -1,7 +1,7 @@
-import skate from "../images/skate.jpg";
-import christmas from "../images/christmas.jpg";
-import elementarySchool from "../images/elementary-school.jpg";
-import covid from "../images/covid.jpg";
+import skate from "../../../images/skate.jpg";
+import christmas from "../../../images/christmas.jpg";
+import elementarySchool from "../../../images/elementary-school.jpg";
+import covid from "../../../images/covid.jpg";
 
 // eslint-disable-next-line
 export default [

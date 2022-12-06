@@ -1,5 +1,5 @@
 import React from "react";
-import Character from "../images/06_両羽上げのポーズ.jpg";
+import Character from "../../../images/06_両羽上げのポーズ.jpg";
 
 export default function Bot() {
   return (
