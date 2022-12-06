@@ -11,7 +11,7 @@ const Raising = () => {
   return (
     <>
       <Top_info />
-      <Hero type={"Medical"} span={"CARE"}/>
+      <Hero type={"Raising"} span={"-出産・子育て-"}/>
       <Title type={"Loading"}/>
         <div className='flex flex-wrap justify-center items-center'>
           <Box to={"/Raising/none"} type={"Loading"} src={Loading} alt={"Hospital"} />

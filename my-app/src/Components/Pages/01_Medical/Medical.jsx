@@ -13,7 +13,7 @@ const Medical = () => {
   return (
     <>
       <Top_info />
-      <Hero type={"Medical"} span={"CARE"}/>
+      <Hero type={"Medical CARE"} span={"-医療-"}/>
       <Title type={"Hospital & Clinic"}/>
         <div className='flex flex-wrap justify-center items-center'>
           <Box to={"/medical/none"} type={"Search"} src={Hospital} alt={"Hospital"} />
