@@ -13,10 +13,10 @@
   }
 }
 
-/* body { */
-  /* fnt-family: "Edu NSW ACT Foundation", cursive;
-  font-family: "Nanum Myeongjo", serif; */
-/* } */
+body { 
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-family: "Nanum Myeongjo", serif; 
+}
 
 main {
   /* padding: 30px 10px; */

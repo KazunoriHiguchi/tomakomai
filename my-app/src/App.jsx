@@ -22,6 +22,7 @@ function App() {
     <Router>
       <div className="App">
         <Header />
+        <Home />
           <Routes>
             <Route path="/" element={<Home />}/>
 {/* -----------------Information---------------------- */}
@@ -33,8 +34,6 @@ function App() {
             <Route path="/transportation" element={<Transportation/>}/>
             <Route path="/tax" element={<Tax/>}/>
             <Route path="/dailylife" element={<DailyLife/>}/>
-            
-            
           </Routes>
         <Footer />
       </div>

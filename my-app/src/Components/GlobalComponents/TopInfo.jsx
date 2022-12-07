@@ -1,14 +1,14 @@
 import React from 'react'
 import Lang from './Lang'
-import Page_nav from './Page_nav'
+import PageNav from './PageNav'
 
-const Top_info = () => {
+const TopInfo = () => {
   return (
     <>
       <Lang />
-      <Page_nav/>
+      <PageNav/>
     </>
   )
 }
 
-export default Top_info
+export default TopInfo

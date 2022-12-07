@@ -21,7 +21,7 @@ export default function Header() {
     <>
       <header className="mt-4 h-16 flex items-center">
         <a href="https://tch2022.mikan-foundation.org/" className="flex items-center">
-          <img src={Logo} alt="Logo" className="w-16 mt-4" />
+          <img src={Logo} alt="Logo" className="w-10 pt-2" />
           <h1 className="hidden sm:block">TOMAKOMAI CITY HACKATHON</h1>
           <h1 className="sm:hidden">
             TOMAKOMAI CITY <br></br>HACKATHON
