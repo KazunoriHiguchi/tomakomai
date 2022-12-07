@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tomakomai/static/css/main.d0fad1c2.css",
-    "main.js": "/tomakomai/static/js/main.6a95d0ed.js",
+    "main.js": "/tomakomai/static/js/main.7ca52f15.js",
     "static/js/787.28cb0dcd.chunk.js": "/tomakomai/static/js/787.28cb0dcd.chunk.js",
     "static/media/daily-life.jpg": "/tomakomai/static/media/daily-life.4fb3132c3d2b8167f0ff.jpg",
     "static/media/transportation.jpg": "/tomakomai/static/media/transportation.7aad11aad5bd6ff183fa.jpg",
@@ -25,11 +25,11 @@
     "static/media/slick.woff": "/tomakomai/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/tomakomai/index.html",
     "main.d0fad1c2.css.map": "/tomakomai/static/css/main.d0fad1c2.css.map",
-    "main.6a95d0ed.js.map": "/tomakomai/static/js/main.6a95d0ed.js.map",
+    "main.7ca52f15.js.map": "/tomakomai/static/js/main.7ca52f15.js.map",
     "787.28cb0dcd.chunk.js.map": "/tomakomai/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d0fad1c2.css",
-    "static/js/main.6a95d0ed.js"
+    "static/js/main.7ca52f15.js"
   ]
 }
