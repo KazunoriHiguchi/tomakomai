@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tomakomai.git/static/css/main.b8773382.css",
-    "main.js": "/tomakomai.git/static/js/main.4b00fad1.js",
+    "main.js": "/tomakomai.git/static/js/main.acc2b262.js",
     "static/js/787.28cb0dcd.chunk.js": "/tomakomai.git/static/js/787.28cb0dcd.chunk.js",
     "static/media/daily-life.jpg": "/tomakomai.git/static/media/daily-life.4fb3132c3d2b8167f0ff.jpg",
     "static/media/transportation.jpg": "/tomakomai.git/static/media/transportation.7aad11aad5bd6ff183fa.jpg",
@@ -25,11 +25,11 @@
     "static/media/slick.woff": "/tomakomai.git/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/tomakomai.git/index.html",
     "main.b8773382.css.map": "/tomakomai.git/static/css/main.b8773382.css.map",
-    "main.4b00fad1.js.map": "/tomakomai.git/static/js/main.4b00fad1.js.map",
+    "main.acc2b262.js.map": "/tomakomai.git/static/js/main.acc2b262.js.map",
     "787.28cb0dcd.chunk.js.map": "/tomakomai.git/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b8773382.css",
-    "static/js/main.4b00fad1.js"
+    "static/js/main.acc2b262.js"
   ]
 }
