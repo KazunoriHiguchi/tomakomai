@@ -88,16 +88,13 @@ main {
 
 /* News */
 .content {
-  max-width: 1280px;
   overflow-x: hidden;
-  margin: 0 120px 30px ;
 }
 
 .card {
   height: 550px;
   display: flex;
   flex-direction: column;
-  max-width: 24rem;
   position: relative;
 }
 

@@ -22,7 +22,7 @@ export default function News() {
         },
       },
       {
-        breakpoint: 640,
+        breakpoint: 645,
         settings: {
           slidesToShow: 1,
         },
@@ -34,8 +34,7 @@ export default function News() {
     <>
       <h2 className="flex justify-center mt-8 mb-4 text-xl">News</h2>
       <h3 className="flex justify-center mb-8">お知らせ</h3>
-      <div className="my-8"></div>
-      <div className="content">
+      <div className="content mx-auto">
         <div className="controls">
           <button onClick={sliderRef?.slickPrev}>
             <FaChevronLeft />

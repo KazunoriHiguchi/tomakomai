@@ -14,14 +14,14 @@ const Page_nav = () => {
   return (
     <>
       <div className='my-4 flex justify-center items-center flex-wrap mx-4 text-center'>
-        <PageMoveComponent to={"/medical"} type={ "医療"}/>
-        <PageMoveComponent to={"/raising"} type={ "出産・子育て"}/>
-        <PageMoveComponent to={"/education"} type={ "教育"}/>
-        <PageMoveComponent to={"/emergency"} type={ "緊急"}/>
-        <PageMoveComponent to={"/job"} type={ "就労"}/>
-        <PageMoveComponent to={"/transportation"} type={ "交通"}/>
-        <PageMoveComponent to={"/tax"} type={ "税金"}/>
-        <PageMoveComponent to={"/dailylife"} type={ "日常生活"}/>
+        <PageMoveComponent to={"/tomakomai/medical"} type={ "医療"}/>
+        <PageMoveComponent to={"/tomakomai/raising"} type={ "出産・子育て"}/>
+        <PageMoveComponent to={"/tomakomai/education"} type={ "教育"}/>
+        <PageMoveComponent to={"/tomakomai/emergency"} type={ "緊急"}/>
+        <PageMoveComponent to={"/tomakomai/job"} type={ "就労"}/>
+        <PageMoveComponent to={"/tomakomai/transportation"} type={ "交通"}/>
+        <PageMoveComponent to={"/tomakomai/tax"} type={ "税金"}/>
+        <PageMoveComponent to={"/tomakomai/dailylife"} type={ "日常生活"}/>
       </div>
     </>
   )
