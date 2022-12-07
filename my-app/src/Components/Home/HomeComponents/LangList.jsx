@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 export default function LangList() {
   return (
@@ -56,14 +56,14 @@ export default function LangList() {
           Tagalog
         </a>
       </div>
-      <div className="bg-blue-400 mx-auto mb-6 w-12 rounded">
+      {/* <div className="bg-blue-400 mx-auto mb-6 w-12 rounded">
         <Link to={"/tomakomai/"} className="justify-center flex text-white">
           戻る
         </Link>
       </div>
       <p className="flex justify-center pb-6 px-6">
         *日本語以外の言語ページから別の言語の翻訳ページに飛ぶ際は、ここの戻るボタンを押してから飛んでください*
-      </p>
+      </p> */}
     </div>
   );
 }
