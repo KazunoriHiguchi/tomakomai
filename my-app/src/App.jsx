@@ -5,6 +5,8 @@ import "./CSS/App.css";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import Home from "./Components/Home/Home";
+// nav
+import DisasterPreventionMap from "./Components/Home/HomeComponents/DisasterPreventionMap";
 /* -----------------Information---------------------- */
 import Medical from "./Components/Pages/01_Medical/Medical";
 import Raising from "./Components/Pages/02_Raising/Raising";
@@ -22,13 +24,18 @@ function App() {
         <Header />
         <Routes>
           <Route path="/tomakomai" element={<Home />} />
+          {/* nav */}
+          <Route path="/tomakomai/map" element={<DisasterPreventionMap />} />
           {/* -----------------Information---------------------- */}
           <Route path="/tomakomai/medical" element={<Medical />} />
           <Route path="/tomakomai/raising" element={<Raising />} />
           <Route path="/tomakomai/education" element={<Education />} />
           <Route path="/tomakomai/emergency" element={<Emergency />} />
           <Route path="/tomakomai/job" element={<Job />} />
-          <Route path="/tomakomai/transportation" element={<Transportation />} />
+          <Route
+            path="/tomakomai/transportation"
+            element={<Transportation />}
+          />
           <Route path="/tomakomai/tax" element={<Tax />} />
           <Route path="/tomakomai/dailylife" element={<DailyLife />} />
         </Routes>

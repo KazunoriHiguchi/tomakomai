@@ -1,6 +1,7 @@
 import React from "react";
 import { IoIosClose } from "react-icons/io";
 import { IconContext } from "react-icons";
+// import { Link } from "react-router-dom";
 
 export default function Modal(props) {
   if (props.isShow) {
@@ -31,17 +32,24 @@ export default function Modal(props) {
               Facebook
             </a>
             <a
-              href="https://www.city.tomakomai.hokkaido.jp/"
+              href="https://www.city.tomakomai.hokkaido.jp/contents/bousaimap/#"
               className="flex justify-center hover:text-green-400"
             >
-              Contact
+              防災マップ
             </a>
-            <a
+            {/* <Link
+              to={"/tomakomai/map"}
+              onClick={() => props.setIsShow(false)}
+              className="flex justify-center hover:text-green-400"
+            >
+              災害マップ
+            </Link> */}
+            {/* <a
               href="https://tch2022.mikan-foundation.org/"
               className="flex justify-center hover:text-green-400"
             >
-              About Us
-            </a>
+              私たちについて
+            </a> */}
           </div>
         </div>
       </div>

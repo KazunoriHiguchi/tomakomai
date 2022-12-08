@@ -1,5 +1,5 @@
 import React from 'react'
-import Bot from './HomeComponents/Bot'
+// import Bot from './HomeComponents/Bot'
 import LangList from './HomeComponents/LangList'
 import MapComponent from './HomeComponents/MapComponent'
 import News from './HomeComponents/News/News'
@@ -16,7 +16,7 @@ const Home = () => {
           <Phone />
         </div>
       <News />
-      <Bot />
+      {/* <Bot /> */}
   </>
   )
 }
