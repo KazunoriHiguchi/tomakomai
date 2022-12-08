@@ -2,7 +2,7 @@ import React from "react";
 import Modal from "./Modal";
 import Logo from "../images/09_顔のみ.jpg";
 import { BsYoutube, BsFacebook } from "react-icons/bs";
-import { CiSearch } from "react-icons/ci";
+// import { CiSearch } from "react-icons/ci";
 import { IoIosMenu, IoIosClose } from "react-icons/io";
 import { IconContext } from "react-icons";
 import { useLocation } from "react-router-dom";
@@ -33,7 +33,7 @@ export default function Header() {
           </h1>
         </a>
         <nav className="ml-auto flex gap-4">
-          <div className=" relative hidden sm:block ">
+          {/* <div className=" relative hidden sm:block ">
             <IconContext.Provider value={{ className: "search-icon" }}>
               <CiSearch />
             </IconContext.Provider>
@@ -42,8 +42,11 @@ export default function Header() {
               placeholder="search"
               className="border px-5"
             ></input>
-          </div>
+          </div> */}
           <ul className="hidden sm:flex  items-center gap-4 mr-4">
+            <li className="py-1 px-2 rounded hover:bg-blue-300">
+              <a href="https://www.city.tomakomai.hokkaido.jp/contents/bousaimap/#">防災マップ</a>
+            </li>
             <IconContext.Provider
               value={{ size: "1.8rem", className: "youtube" }}
             >
