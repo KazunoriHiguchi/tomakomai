@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tomakomai/static/css/main.49fd0a16.css",
-    "main.js": "/tomakomai/static/js/main.be8c78ec.js",
+    "main.css": "/tomakomai/static/css/main.3d02cd9c.css",
+    "main.js": "/tomakomai/static/js/main.a670a8fd.js",
     "static/js/787.28cb0dcd.chunk.js": "/tomakomai/static/js/787.28cb0dcd.chunk.js",
     "static/media/daily-life.jpg": "/tomakomai/static/media/daily-life.4fb3132c3d2b8167f0ff.jpg",
     "static/media/transportation.jpg": "/tomakomai/static/media/transportation.7aad11aad5bd6ff183fa.jpg",
@@ -11,7 +11,6 @@
     "static/media/emergency.jpg": "/tomakomai/static/media/emergency.27712d42c44b240d9b9c.jpg",
     "static/media/hospital.jpg": "/tomakomai/static/media/hospital.ba60c492f82ad2ac824d.jpg",
     "static/media/tax.jpg": "/tomakomai/static/media/tax.60f919f9e764b33566be.jpg",
-    "static/media/06_両羽上げのポーズ.jpg": "/tomakomai/static/media/06_両羽上げのポーズ.da522de0e1d209b4c7cd.jpg",
     "static/media/09_顔のみ.jpg": "/tomakomai/static/media/09_顔のみ.1dde3d0140b851100890.jpg",
     "static/media/covid.jpg": "/tomakomai/static/media/covid.798afc3341fefe404b60.jpg",
     "static/media/christmas.jpg": "/tomakomai/static/media/christmas.711050ffccce1e7ef354.jpg",
@@ -24,12 +23,12 @@
     "static/media/slick.ttf": "/tomakomai/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/tomakomai/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/tomakomai/index.html",
-    "main.49fd0a16.css.map": "/tomakomai/static/css/main.49fd0a16.css.map",
-    "main.be8c78ec.js.map": "/tomakomai/static/js/main.be8c78ec.js.map",
+    "main.3d02cd9c.css.map": "/tomakomai/static/css/main.3d02cd9c.css.map",
+    "main.a670a8fd.js.map": "/tomakomai/static/js/main.a670a8fd.js.map",
     "787.28cb0dcd.chunk.js.map": "/tomakomai/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.49fd0a16.css",
-    "static/js/main.be8c78ec.js"
+    "static/css/main.3d02cd9c.css",
+    "static/js/main.a670a8fd.js"
   ]
 }
