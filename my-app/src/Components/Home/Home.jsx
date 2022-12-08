@@ -1,10 +1,10 @@
 import React from 'react'
-import Bot from './Home-components/Bot'
-import LangList from '../Global_components/LangList'
-import MapComponent from './Home-components/MapComponent'
-import News from './Home-components/News/News'
-import Phone from './Home-components/Phone'
-import SupportList from './Home-components/Support/SupportList'
+// import Bot from './HomeComponents/Bot'
+import LangList from './HomeComponents/LangList'
+import MapComponent from './HomeComponents/MapComponent'
+import News from './HomeComponents/News/News'
+import Phone from './HomeComponents/Phone'
+import SupportList from './HomeComponents/Support/SupportList'
 
 const Home = () => {
   return (
@@ -16,7 +16,7 @@ const Home = () => {
           <Phone />
         </div>
       <News />
-      <Bot />
+      {/* <Bot /> */}
   </>
   )
 }

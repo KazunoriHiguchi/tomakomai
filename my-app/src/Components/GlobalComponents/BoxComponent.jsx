@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from "react-router-dom";
 
 
-export default function Box_component(props) {
+export default function BoxComponent(props) {
   return (
     < >
       <Link 
