@@ -44,7 +44,7 @@ export default function Header() {
             ></input>
           </div> */}
           <ul className="hidden sm:flex  items-center gap-4 mr-4">
-            <li className="py-1 px-2 rounded hover:bg-blue-300">
+            <li className="py-1 px-2 rounded hover:bg-green-300">
               <a href="https://www.city.tomakomai.hokkaido.jp/contents/bousaimap/#">防災マップ</a>
             </li>
             <IconContext.Provider
