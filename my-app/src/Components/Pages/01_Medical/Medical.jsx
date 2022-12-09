@@ -1,12 +1,12 @@
 import React from 'react'
 import TopInfo from '../../GlobalComponents/TopInfo'
 import Hero from '../../GlobalComponents/HeroComponent'
-import Title from '../../GlobalComponents/TitleComponent'
-import Box from '../../GlobalComponents/BoxComponent'
+// import Title from '../../GlobalComponents/TitleComponent'
+// import Box from '../../GlobalComponents/BoxComponent'
 
 // ---------------Images-------------------
-import Hospital from "../../../images/hospital.jpg";
-import Loading from "../../../images/Loading.png";
+// import Hospital from "../../../images/hospital.jpg";
+// import Loading from "../../../images/Loading.png";
 
 
 const Medical = () => {
