@@ -20,7 +20,7 @@ import DailyLife from "./Components/Pages/08_DailyLife/DailyLife";
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="App font-link font-link02">
         <Header />
         <Routes>
           <Route path="/tomakomai" element={<Home />} />
