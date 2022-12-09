@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Hero_component(props) {
+export default function HeroComponent(props) {
   return (
     <div className='w-full'>
       <div className='flex mx-auto justify-center items-center my-4 w-auto h-auto'>

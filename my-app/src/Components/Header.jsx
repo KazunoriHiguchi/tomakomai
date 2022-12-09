@@ -2,11 +2,13 @@ import React from "react";
 import Modal from "./Modal";
 import Logo from "../images/09_顔のみ.jpg";
 import { BsYoutube, BsFacebook } from "react-icons/bs";
-import { CiSearch } from "react-icons/ci";
+// import { CiSearch } from "react-icons/ci";
 import { IoIosMenu, IoIosClose } from "react-icons/io";
 import { IconContext } from "react-icons";
+import { useLocation } from "react-router-dom";
 
 export default function Header() {
+  const pathname = useLocation().pathname;
   const [isShow, setIsShow] = React.useState(false);
   const MenuButton = isShow ? (
     <IconContext.Provider value={{ size: "2rem", className: "menu-icon" }}>
@@ -20,15 +22,18 @@ export default function Header() {
   return (
     <>
       <header className="mt-4 h-16 flex items-center">
-        <a href="https://tch2022.mikan-foundation.org/" className="flex items-center">
-          <img src={Logo} alt="Logo" className="w-16 mt-4" />
+        <a
+          href="https://tch2022.mikan-foundation.org/"
+          className="flex items-center"
+        >
+          <img src={Logo} alt="Logo" className="w-10 pt-2" />
           <h1 className="hidden sm:block">TOMAKOMAI CITY HACKATHON</h1>
           <h1 className="sm:hidden">
             TOMAKOMAI CITY <br></br>HACKATHON
           </h1>
         </a>
         <nav className="ml-auto flex gap-4">
-          <div className=" relative hidden sm:block ">
+          {/* <div className=" relative hidden sm:block ">
             <IconContext.Provider value={{ className: "search-icon" }}>
               <CiSearch />
             </IconContext.Provider>
@@ -37,8 +42,11 @@ export default function Header() {
               placeholder="search"
               className="border px-5"
             ></input>
-          </div>
+          </div> */}
           <ul className="hidden sm:flex  items-center gap-4 mr-4">
+            <li className="py-1 px-2 rounded hover:bg-green-300">
+              <a href="https://www.city.tomakomai.hokkaido.jp/contents/bousaimap/#">防災マップ</a>
+            </li>
             <IconContext.Provider
               value={{ size: "1.8rem", className: "youtube" }}
             >
@@ -58,12 +66,14 @@ export default function Header() {
               </li>
             </IconContext.Provider>
           </ul>
-          <button
-            className="sm:hidden"
-            onClick={() => setIsShow((prevIsShow) => !prevIsShow)}
-          >
-            {MenuButton}
-          </button>
+          {pathname === "/tomakomai/map" ? null : (
+            <button
+              className="sm:hidden"
+              onClick={() => setIsShow((prevIsShow) => !prevIsShow)}
+            >
+              {MenuButton}
+            </button>
+          )}
         </nav>
       </header>
       <Modal isShow={isShow} setIsShow={setIsShow} />
